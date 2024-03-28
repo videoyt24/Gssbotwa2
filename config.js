@@ -28,7 +28,7 @@ global.premium = ['255688930205'];
 global.packname = '𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢';
 global.author = '𝐆𝐒𝐒 𝚩𝚯𝚻𝐖𝚫';
 global.sessionName = 'session';
-global.prefa = ['', '!', '.'];
+global.prefa = ['!', '.'];
 global.sp = '✪';
 global.mess = {
     banned: '`You are *Banned* fron using commands!`',
@@ -49,6 +49,7 @@ global.autoswview = process.env.AUTO_STATUS_SEEN || "true",
 global.typemenu = 'v1' // 'v1' => 'v5'
 global.onlygroup = true // onlygroup
 global.onlypc = false
+global.welcome = process.env.WELCOME_MSG || "true",
 global.AUTO_ABOUT = false
 global.limitawal = {
     premium: 'Infinity',
